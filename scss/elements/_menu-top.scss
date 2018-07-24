@@ -1,0 +1,253 @@
+/* ============== Menu top ============= */
+
+/* hover menu estados activos colores */
+#mod1.curso-cc #menu-compensar li:nth-child(1),
+#mod2.curso-cc #menu-compensar li:nth-child(2),
+#mod3.curso-cc #menu-compensar li:nth-child(3),
+#mod4.curso-cc #menu-compensar li:nth-child(4),
+#mod5.curso-cc #menu-compensar li:nth-child(5),
+#mod6.curso-cc #menu-compensar li:nth-child(6),
+#mod7.curso-cc #menu-compensar li:nth-child(7),
+#mod8.curso-cc #menu-compensar li:nth-child(8),
+#mod9.curso-cc #menu-compensar li:nth-child(9),
+#mod10.curso-cc #menu-compensar li:nth-child(10) {
+	
+	&:after{
+		content: "";
+		background: #e56b41;
+		height: 4px;
+		width: 100%;
+		bottom: 0;
+		left: 0;
+		position: absolute;
+	}
+	
+}
+
+
+// Navigation Variables
+$content-width: 1000px;
+$breakpoint: 799px;
+$nav-height: 50px;
+$nav-background: #ffffff;
+$nav-font-color: #242424;
+$link-hover-color: #68B1A9;
+
+
+#region-main .curso-cc{
+	
+	// Outer navigation wrapper
+	.navigation {
+	  height: $nav-height;
+	  background: $nav-background;
+	  z-index: 1000;
+	  position: relative ;
+	  
+	  nav{
+			float: left;
+			display: inline-block;
+			width: 94%;
+			left: $nav-height;
+			position: relative;
+			padding: 0;
+		}
+	}
+	
+	// Logo and branding
+	.brand {
+	  position: absolute;
+		padding-left: 0px;
+		line-height: 0;
+		text-transform: uppercase;
+		font-size: 1.4em;
+		max-width: 4rem;
+		display: inline-block;
+		top: 0px;
+	  a{
+		  color: $nav-font-color;
+		  text-decoration: none;
+		  background: #47274B;
+		  display: block;
+			width: 50px;
+			height: 50px;
+			
+			img{
+				margin-top: 10px;
+			}
+	  }
+	  a:visited {
+	    color: $nav-font-color;
+	    text-decoration: none;
+	  }
+	}
+	
+	// Container with no padding for navbar
+	.nav-container {
+	  //max-width: $content-width;
+	  margin: 0 auto;
+	}
+	
+	// Navigation 
+	nav {
+	  float: right;
+	  .nav-list {
+	    list-style: none;
+	    margin: 0;
+	    padding: 0;
+	    li {
+	      float: left;
+	      position: relative;
+	      display: inline-block;
+		  margin-bottom: 0;
+	      a {
+	        display: block;
+	        padding: 0 20px;
+	        line-height: $nav-height;
+	        background: $nav-background;
+	        color: $nav-font-color;
+	        text-decoration: none;
+	        margin-right: 0px;
+			margin-left: 0px;
+			letter-spacing: 0;
+	        &:hover {
+	          background: #68B1A9;
+	          color: #ffffff;
+	        }
+	        &:not(:only-child):after {
+	          padding-left: 4px;
+	          content: ' ▾';
+	        }
+	      }
+	      
+	      // Dropdown list
+	      ul li {
+	        min-width: 250px;
+			margin-bottom: 0;
+			float: none;
+			border-bottom: none !important;
+			
+			&:after{
+				display: none;
+			}
+			
+	        a {
+	          padding: 15px;
+	          line-height: 20px;
+	          background: #68B1A9;
+	          color: #ffffff;
+	          &:hover {
+		          background: $nav-background;
+		          color: #68B1A9;
+		        }
+	        }
+	      }
+	    }
+	  }
+	}
+	
+	// Dropdown list binds to JS toggle event
+	.nav-dropdown {
+	  position: absolute;
+	  display: none;
+	  z-index: 1;
+	  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+	  margin: 4px 0 0 0 !important;
+	  text-align: left;
+	  min-width: 250px;
+	  
+	  	li{
+	  		border-bottom: none;
+		}
+	}
+	
+	/* Mobile navigation */
+	
+	// Binds to JS Toggle
+	.nav-mobile {
+	  display: none;
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  background: $nav-background;
+	  height: $nav-height;
+	  width: $nav-height;
+	}
+	@media only screen and (max-width: 798px) {
+	  // Hamburger nav visible on mobile only
+	  .nav-mobile {
+	    display: block;
+	    right: 1rem;
+	  }
+	  nav {
+	   width: 100%;
+	    padding: $nav-height 0 15px;
+	    .nav-list {
+	      display: none;
+	      li {
+	        float: none;
+	            width: 80%;
+	        a {
+	          padding: 15px;
+	          line-height: 20px;
+	        }
+	        ul li a {
+	          padding-left: 30px;
+	        }
+	      }
+	    }
+	  }
+	  .nav-dropdown {
+	    position: static;
+	  }
+	}
+	@media screen and (min-width: $breakpoint) {
+	  .nav-list {
+	    display: block !important;
+	  }
+	}
+	#nav-toggle {
+	  position: relative;
+	  left: 0;
+	  top: 30%;
+	  cursor: pointer;
+	  padding: 10px 35px 16px 0px;
+	  
+	  i{
+		  font-size: 25px;
+	  }
+	  
+	  span,
+	  span:before,
+	  span:after {
+	    cursor: pointer;
+	    border-radius: 1px;
+	    height: 5px;
+	    width: 35px;
+	    background: $link-hover-color;
+	    position: absolute;
+	    display: block;
+	    content: '';
+	    transition: all 300ms ease-in-out;
+	  }
+	  
+	  span:before {
+	    top: -10px;
+	  }
+	  span:after {
+	    bottom: -10px;
+	  }
+	  &.active span {
+	    background-color: transparent;
+	    &:before,
+	    &:after {
+	      top: 0;
+	    }
+	    &:before {
+	      transform: rotate(45deg);
+	    }
+	    &:after {
+	      transform: rotate(-45deg);
+	    }
+	  }
+	}
+}

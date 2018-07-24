@@ -1,0 +1,86 @@
+/* ======================= modal ======================= */
+body .remodal{
+	font-family:'Muli',sans-serif;
+	width: auto;
+	background: #FFF9E0;
+	color: #242424;
+	text-align: left;
+}
+
+body .remodal h3{
+	font-size: 23px;
+font-weight: 800;
+text-align: center;
+}
+
+body .remodal .remodal-close{
+	background: #E56B40;
+border-radius: 1rem;
+color: #fff;
+left: -10px;
+top: -10px;
+box-shadow: 0px 0px 9px rgba(0,0,0,0.4);
+}
+
+body .remodal .btn-orange{
+		background:#EE8E2A;
+	background-repeat:no-repeat;
+	padding:.4rem 1rem .4rem 1rem;
+	border-radius:3rem;
+	color:#fff;
+	font-weight:600;
+	background-position:95%;
+	background-size:8px;
+	display:inline-block;
+	float:left;
+	margin:.4rem 0;
+	text-decoration:none;
+	min-width: auto;
+}
+
+body .fancybox-title-float-wrap {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: -44px;
+    z-index: 8050;
+    text-align: center;
+    background: #E56B40;
+    color: #fff;
+    text-align: left;
+    padding: 0.5rem 1rem;
+}
+
+body .fancybox-title-float-wrap .child {
+    display: inline-block;
+    margin-left: 0;
+    padding: 2px 20px;
+    background: none;
+    background: none;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    text-shadow: none;
+    color: #FFF;
+    font-weight: bold;
+    line-height: 24px;
+    white-space: nowrap;
+      font-family: 'Muli',sans-serif;
+}
+
+body .fancybox-close {
+    position: absolute;
+    top: -18px;
+    left: -18px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 8040;
+    background: url(/diseno/cursos/compensar-gestion-riesgo/Images/Icons/wrong2.svg) #e56b41;
+    border-radius: 2rem;
+    color: #fff;
+    background-size: 19px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}

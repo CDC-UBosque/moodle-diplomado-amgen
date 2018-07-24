@@ -1,0 +1,28 @@
+/* ======================= Tablas ======================= */
+.curso-cc .content-cc .tabla {
+	border-color:#69b0a8;
+}
+
+.curso-cc .content-cc .tabla .titulo {
+	background:#69b0a8;
+	color:#fff;
+	border-color:#fff;
+	font-weight:700;
+}
+
+.curso-cc .content-cc .tabla .resaltado {
+	background:#69b0a8;
+	border-color:#fff;
+}
+
+.curso-cc .content-cc .tabla tr {
+}
+
+.curso-cc .content-cc .tabla tr td {
+	border-width:thin;
+	border-style:solid;
+	padding:.6rem;
+	text-align:left;
+	border-color:#69b0a8;
+	background: #fff;
+}

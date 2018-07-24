@@ -1,0 +1,22 @@
+/* ========== footer ========== */
+.curso-cc #footer {
+	text-align:center;
+	margin:2rem 0;
+	background: none;
+}
+
+.curso-cc #footer > .logos {
+	max-width:170px;
+	display:inline-block;
+	margin:1rem;
+	
+	@media (max-width: 513px){
+		max-width: 120px;
+	}
+}
+
+.curso-cc #footer > .legal {
+	color:#95989A;
+	font-style:italic;
+	font-size:14px;
+}

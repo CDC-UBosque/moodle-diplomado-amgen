@@ -1,0 +1,239 @@
+/* tabs */
+ul.resp-tabs-list,p {
+	margin:0;
+	padding:0;
+}
+
+.resp-tabs-list li {
+	font-weight:800;
+	font-size:16px;
+	display:inline-block;
+	padding:13px 15px;
+	margin:0 4px 0 0;
+	list-style:none;
+	cursor:pointer;
+	float:left;
+	color:#fff;
+}
+
+.resp-tabs-container {
+	padding:0;
+	background-color:#fff;
+	clear:left;
+}
+
+h2.resp-accordion {
+	cursor:pointer;
+	padding:5px;
+	display:none;
+}
+
+.resp-tab-content {
+	display:none;
+	padding:15px;
+}
+
+.resp-tab-active {
+	background:#E56B40!important;
+	color:#fff;
+}
+
+.resp-tab-active {
+	border-bottom:none;
+	background-color:#fff;
+}
+
+.resp-content-active,.resp-accordion-active {
+	display:block;
+}
+
+.resp-tab-content {
+	border:1px solid #c1c1c1;
+	border-top-color:#5AB1D0;
+}
+
+h2.resp-accordion {
+	font-size:13px;
+	border:1px solid #c1c1c1;
+	border-top:0 solid #c1c1c1;
+	margin:0;
+	padding:10px 15px;
+}
+
+h2.resp-tab-active {
+	border-bottom:0 solid #c1c1c1!important;
+	margin-bottom:0!important;
+	padding:10px 15px!important;
+}
+
+h2.resp-tab-title:last-child {
+	border-bottom:12px solid #c1c1c1!important;
+	background:blue;
+}
+
+/*-----------Vertical tabs-----------*/
+.resp-vtabs ul.resp-tabs-list {
+	float:left;
+	max-width:220px;
+}
+
+.resp-vtabs .resp-tabs-list li {
+	display:block;
+	margin:0 0 4px;
+	cursor:pointer;
+	float:none;
+}
+
+.resp-vtabs .resp-tabs-container {
+	padding:0;
+	background-color:#FFF9E0;
+	border:0;
+	float:left;
+	max-width:60%;
+	height:auto;
+	border-radius:0;
+	clear:none;
+}
+
+.resp-vtabs .resp-tab-content {
+	border:none;
+	word-wrap:break-word;
+}
+
+.resp-vtabs li.resp-tab-active {
+	position:relative;
+	z-index:1;
+}
+
+.resp-arrow {
+	width:0;
+	height:0;
+	float:right;
+	margin-top:3px;
+	border-left:6px solid transparent;
+	border-right:6px solid transparent;
+	border-top:12px solid #c1c1c1;
+}
+
+h2.resp-tab-active span.resp-arrow {
+	border:none;
+	border-left:6px solid transparent;
+	border-right:6px solid transparent;
+	border-bottom:12px solid #9B9797;
+}
+
+/*!
+ * jQuery Tabs - jQuery plugin to create simple vertical and horizontal tabs
+ * Copyright 2017 - Anantajit JG
+ * https://github.com/anantajitjg/jquery-tabs
+ */
+.jq-tab-wrapper {
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	width:100%;
+	    margin-top: 2rem;
+}
+
+.jq-tab-wrapper.horizontal-tab {
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-ms-flex-direction:column;
+	flex-direction:column;
+}
+
+.jq-tab-menu {
+	-webkit-box-flex:1;
+	-ms-flex:1;
+	flex:1;
+}
+
+.jq-tab-menu .jq-tab-title {
+background: #68B1A9;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    padding: 0.8rem;
+    -webkit-transition: background .2s;
+    -o-transition: background .2s;
+    transition: background .2s;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.jq-tab-menu .jq-tab-title:first-child {
+	border-top:1px solid #d1d1d1;
+}
+
+.jq-tab-menu .jq-tab-title:hover,.jq-tab-menu .jq-tab-title.active {
+	background:#E56B40;
+}
+
+.horizontal-tab .jq-tab-menu {
+	display:-webkit-inline-box;
+	display:-ms-inline-flexbox;
+	display:inline-flex;
+}
+
+.horizontal-tab .jq-tab-menu .jq-tab-title {
+	border-bottom:none;
+	border-right:1px solid #d1d1d1;
+	border-left:none;
+}
+
+.horizontal-tab .jq-tab-menu .jq-tab-title:first-child {
+	border-left:1px solid #d1d1d1;
+	border-top:none;
+}
+
+.horizontal-tab .jq-tab-menu .jq-tab-title:hover,.horizontal-tab .jq-tab-menu .jq-tab-title.active {
+	border-bottom:1px solid #505050;
+}
+
+.jq-tab-content-wrapper {
+	-webkit-box-flex:4;
+	-ms-flex:4;
+	flex:4;
+}
+
+.jq-tab-content {
+	padding:1em 1.8em;
+	background:#FFF9E0;
+	font-size:15px;
+}
+
+.jq-tab-content.inactive{
+	display: none;
+}
+
+.jq-tab-content.active {
+	display:block;
+}
+
+.row-fluid .curso-cc .teams-co > div {
+    background: #e56b41;
+    color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.row-fluid .curso-cc .teams-co > div i {
+    display: block;
+    font-size: 40px;
+    padding-bottom: 0.7rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row-fluid .curso-cc .teams-co > div span {
+    font-weight: 900;
+    line-height: 14px;
+    font-size: 17px;
+}
