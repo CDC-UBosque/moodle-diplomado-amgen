@@ -1,0 +1,33 @@
+// -----------------------
+// banner home
+// -----------------------
+
+.curso-cc{
+	
+	.banner-home{
+		
+		position: relative;
+		display: inline-block;
+		max-height: 388px;
+		overflow: hidden;
+		
+		img{
+			//position: absolute;
+		}
+		
+		h1{
+			position: absolute;
+			top: 37%;
+			left: 3%;
+			color: $color_white;
+			font-size: $font_banner_titles;
+			
+			span{
+				color: $color_white;
+			}
+			
+		}
+		
+	}
+	
+}

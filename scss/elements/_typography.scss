@@ -1,0 +1,27 @@
+// -----------------------
+// typography
+// -----------------------
+
+.curso-cc{
+	
+	font-family: $font_hel_light;
+	font-size: $font_txt;
+	color: $color_text;
+	
+	h1{
+		font-family: $font_hel_black_italic;
+		font-size: $font_titles;
+		color: $color_brand_blue;
+		
+		span{
+			color: $color_brand_green;
+			margin-left: 2rem;
+		}
+		
+	}
+	
+	h2{
+		font-family: $font_myr_semibold_italic;
+	}
+	
+}
