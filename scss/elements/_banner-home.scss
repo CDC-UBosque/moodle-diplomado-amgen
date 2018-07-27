@@ -13,6 +13,7 @@
 		
 		img{
 			//position: absolute;
+			display: block;
 		}
 		
 		h1{
@@ -24,6 +25,51 @@
 			
 			span{
 				color: $color_white;
+			}
+			
+		}
+		
+	}
+	
+	.banner-cursos{
+		
+		position: relative;
+		display: inline-block;
+		max-height: 388px;
+		overflow: hidden;
+		background: $color_light_background;
+		position: relative;
+		
+		&:before{
+			position: absolute;
+		    content: "";
+		    background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/amgen/images/logos/logo-amgen.svg);
+		    background-repeat: no-repeat;
+		    width: 5rem;
+		    height: 2rem;
+		    left: 2rem;
+		    top: 1rem;
+		}
+		
+		.amgen-banner{
+			position: absolute;
+		}
+		
+		img{
+			//position: absolute;
+			display: block;
+		}
+		
+		.txt-banner{
+			
+			//position: relative;
+			
+			h1{
+				position: absolute;
+				top: 37%;
+				left: 3%;
+				//color: $color_white;
+				font-size: $font_banner_titles;
 			}
 			
 		}

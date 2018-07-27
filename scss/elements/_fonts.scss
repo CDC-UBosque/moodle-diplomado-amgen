@@ -1,4 +1,18 @@
 @font-face {
+    font-family: 'HelveticaNeueLTStd-LtCn';
+    src: url('../fonts/hinted-HelveticaNeueLTStd-LtCn.eot');
+    src: local('Helvetica Neue LT Std 47 Light Condensed'), local('HelveticaNeueLTStd-LtCn'),
+        url('../fonts/hinted-HelveticaNeueLTStd-LtCn.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-HelveticaNeueLTStd-LtCn.woff2') format('woff2'),
+        url('../fonts/hinted-HelveticaNeueLTStd-LtCn.woff') format('woff'),
+        url('../fonts/hinted-HelveticaNeueLTStd-LtCn.ttf') format('truetype'),
+        url('../fonts/hinted-HelveticaNeueLTStd-LtCn.svg#HelveticaNeueLTStd-LtCn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
     font-family: 'HelveticaNeueLTStd-MdCn';
     src: url('../fonts/hinted-HelveticaNeueLTStd-MdCn.eot');
     src: local('Helvetica Neue LT Std 67 Medium Condensed'), local('HelveticaNeueLTStd-MdCn'),

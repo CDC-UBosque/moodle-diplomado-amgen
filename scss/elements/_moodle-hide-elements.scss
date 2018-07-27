@@ -33,3 +33,17 @@
 #course-block-layout aside>.block, #admin-block-layout aside>.block.estiloscompensar{
 	display: none;
 }
+
+.course-content{
+	.content{
+		margin: 0;
+		
+		.summary{
+			.no-overflow{
+				overflow: hidden;
+			}
+		}
+	}
+}
+
+
