@@ -2,7 +2,8 @@
 // typography
 // -----------------------
 
-.curso-cc{
+.curso-cc,
+#region-main .curso-cc{
 	
 	font-family: $font_hel_light;
 	font-size: $font_txt;
@@ -22,13 +23,14 @@
 	
 	h2{
 		font-family: $font_myr_semibold_italic;
-		color: $color_brand_blue;
+		color: $color_brand_blue !important;
 		font-size: $font_titles;
 		max-width: 710px;
 		margin: 0 auto 1rem;
+		display: block;
 		
 		span{
-			color: $color_brand_green;
+			color: $color_brand_green !important;
 		}
 		
 	}

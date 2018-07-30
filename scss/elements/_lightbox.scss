@@ -1,0 +1,40 @@
+// -----------------------
+// lightbox
+// -----------------------
+
+.curso-cc,
+#region-main .curso-cc{
+	
+	.banner-video{
+		
+		margin-bottom: 2rem;
+		display: flex;
+		align-items: flex-end;
+		
+		#video{
+			//border: 1px solid;
+			
+			img{
+				width: 100%;
+				height: auto;
+			}
+			
+		}
+		
+		span{
+			
+			&:last-child{
+				min-height: 0px;
+			}
+			
+		}
+		
+		.img-footer{
+			color: $color_orange;
+			font-family: $font_hel_light_cond;
+			padding-left: 1rem;
+		}
+		
+	}
+	
+}

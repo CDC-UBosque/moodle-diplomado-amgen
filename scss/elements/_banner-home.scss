@@ -2,7 +2,8 @@
 // banner home
 // -----------------------
 
-.curso-cc{
+.curso-cc,
+#region-main .curso-cc{
 	
 	.banner-home{
 		
@@ -51,6 +52,10 @@
 		    top: 1rem;
 		}
 		
+		@media (max-width: 767px){
+			max-height: initial;
+		}
+		
 		.amgen-banner{
 			position: absolute;
 		}
@@ -70,6 +75,13 @@
 				left: 3%;
 				//color: $color_white;
 				font-size: $font_banner_titles;
+				
+				@media (max-width: 767px){
+					position: relative;
+					margin-top: 4rem;
+					margin-bottom: 2rem;
+				}
+				
 			}
 			
 		}

@@ -20,10 +20,14 @@
 #video {
 	margin-top:0;
 	margin-bottom:0;
+	
+	@media (max-width: 767px){
+		
+	}
 }
 
 @media (max-width: 767px){
-.curso-cc .content-cc .video-cc {
-    display: inline-block;
-}
+	.curso-cc .content-cc .video-cc {
+	    display: inline-block;
+	}
 }

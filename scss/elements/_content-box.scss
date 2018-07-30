@@ -2,7 +2,8 @@
 // banner home
 // -----------------------
 
-.curso-cc{
+.curso-cc,
+#region-main .curso-cc{
 	
 	.content-cc{
 		padding: 2rem 2rem 0;
@@ -15,6 +16,15 @@
 			max-width: 710px;
 			margin: auto;
 			letter-spacing: 0.4px;
+		}
+		
+		.row-fluid{
+			margin-top: 2rem;
+			
+			div[ class*="span12"]{
+				margin-left: 0;
+			}
+			
 		}
 		
 	}
