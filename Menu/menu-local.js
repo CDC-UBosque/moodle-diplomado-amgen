@@ -39,7 +39,7 @@ $('#progreso80').html('<div class="progress progress-striped active"><div class=
 // progreso 90%
 $('#progreso90').html('<div class="progress progress-striped active"><div class="bar" style="width: 90%;"></div></div>');
 // progreso 100%
-$('#progreso2100').html('<div class="progress progress-striped active"><div class="bar" style="width: 100%;"></div></div>');
+$('#progreso100').html('<div class="progress progress-striped active"><div class="bar" style="width: 100%;"></div></div>');
 
 
 //
@@ -49,4 +49,4 @@ $('#progreso2100').html('<div class="progress progress-striped active"><div clas
 $('#banner-mod-1').html('<div class="span6 txt-banner"><h1>Diplomado<br><span>Expertos en Lípidos</span></h1></div><div class="video-cc span6 wow animated fadeInLeft" id="video"><div class="embed-container"><iframe src="https://drive.google.com/file/d/0B2f8hVMl2HfySHdoTW9jRTRCNVU/preview"></iframe></div></div>');
 
 // material mod 1
-$('#material-mod-1').html('<div class="span12"><h2>Material <span>del módulo en progreso</span> </h2></div><ul class="thumbnails span12"><li class="span4"><div class="thumbnail"><img src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-1.jpg"><div class="caption"><h3>Presentación capítulo 1</h3><p>Spicy jalapeno bacon ipsum dolor amet cow tail short loin strip steak swine kielbasa pancetta beef ribs pork frankfurter venison. </p><p><a href="https://ubosquemoodle.unbosque.edu.co/mod/resource/view.php?id=243141&forceview=1" class="btn btn-primary" target="_blank">Ver Presentación</a></p></div></div></li></ul>');
+$('#material-mod-1').html('<div class="span12"><h2>Material <span>del módulo en progreso</span> </h2></div><ul class="thumbnails span12"><li class="span4"><div class="thumbnail"><img src="https://ubosquemoodle.unbosque.edu.co/diseno/cursos/amgen/images/mod1/presentacion.jpg"><div class="caption"><h3>Presentación</h3><p>Capítulo 1<br> Fisiología de los lípidos.</p><p><a href="https://ubosquemoodle.unbosque.edu.co/mod/resource/view.php?id=243141&forceview=1" class="btn btn-primary" target="_blank">Ver Presentación</a></p></div></div></li></ul>');

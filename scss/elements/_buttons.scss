@@ -16,6 +16,11 @@
 	    font-size: 16px;
 	    line-height: initial;
 	    transition: all ease-in-out .2s;
+	    text-decoration: none;
+	    
+	    .fa{
+		    width: initial;
+		}
 	    
 	    &:hover{
 		    background: $color_white;
@@ -37,6 +42,11 @@
 			    font-family: $font_hel_medium;
 			    font-size: 16px;
 			    line-height: initial;
+			    text-decoration: none;
+			    
+			    .fa{
+				    width: initial;
+			    }
 			    
 			    &:hover{
 				    background: $color_white;

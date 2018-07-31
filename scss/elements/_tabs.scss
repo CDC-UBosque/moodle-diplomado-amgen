@@ -54,6 +54,14 @@
 			box-sizing: border-box;
 			padding: 1.5rem;
 			
+			>.tab-pane{
+				//display: block;
+			}
+			
+			>.tab-pane .active{
+				display: block;
+			}
+			
 		}
 		
 	}
