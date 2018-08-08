@@ -88,4 +88,28 @@
 		
 	}
 	
+	#banner-mod-0.banner-cursos{
+		
+		.txt-banner{
+			
+			//position: relative;
+			
+			h1{
+				position: relative;
+				margin: 3rem 0 1rem 1rem;
+				//color: $color_white;
+				font-size: $font_banner_titles;
+				
+				@media (max-width: 767px){
+					position: relative;
+					margin-top: 4rem;
+					margin-bottom: 2rem;
+				}
+				
+			}
+			
+		}
+		
+	}
+	
 }
