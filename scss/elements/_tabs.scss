@@ -15,8 +15,11 @@
 			
 			border-bottom: 1px solid $color_brand_blue;
 			margin-bottom: 0;
+			padding: 0;
 			
 			> li{
+				
+				margin-bottom: 0;
 				
 				> a{
 					border: 1px solid $color_brand_blue;

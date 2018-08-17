@@ -2,6 +2,10 @@
 // banner home
 // -----------------------
 
+.curso-cc::-webkit-scrollbar {
+    width:0!important;
+}
+
 .curso-cc,
 #region-main .curso-cc{
 	
@@ -29,6 +33,25 @@
 		
 		iframe#resourceobject{
 			width:100% !important;
+		}
+		
+		ul{
+			margin: 0 auto 1rem;
+		    max-width: 710px;
+		    padding-left: 5rem;
+			
+			li{
+				margin-bottom: 1rem;
+				font-family: $font_hel_light;
+				font-size: $font_txt;
+				line-height: 27px;
+			}
+			
+		}
+		
+		a{
+			color: $color_brand_green;
+			transition: all .2s ease-in-out;
 		}
 		
 	}
