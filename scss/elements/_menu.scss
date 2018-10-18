@@ -396,6 +396,38 @@
 				    background: $color_dark_blue;
 				    .dropdown-menu{
 				     background: $color_dark_blue;
+				     
+				     	li{
+					     	background: $color_dark_blue !important;
+				     	}
+				     
+					     &:nth-last-child(-1n+6){
+							background: $color_dark_blue;
+							
+							a{
+								background: $color_dark_blue;
+								color: $color_white;
+								
+								&:hover{
+									
+									&:before{
+										background: $color_white;
+									}
+									
+								}
+								
+							}
+							
+					    }
+					     
+					     .divider{
+							
+							&:nth-last-child(-1n+6){
+								background: $color_white !important;
+							}
+							
+						}
+				     
 				    }
 				    
 				}
@@ -529,6 +561,11 @@
 					.divider{
 						height: 2px;
 						display: block !important;
+						
+						&:nth-last-child(-1n+6){
+							background: initial;
+						}
+						
 					}
 					
 					li{
@@ -577,6 +614,26 @@
 									height: 70%;
 								}
 								
+							}
+							
+						}
+						
+						&:nth-last-child(-1n+6){
+							background: $color_white;
+							padding: 0 0.7rem;
+							margin-left: -0.7rem;
+							
+							a{
+								color: inherit;
+								&:hover{
+									&:before{
+										background: $color_text;
+									}
+								}
+							}
+							
+							&:last-child{
+								margin-bottom: 0.3rem;
 							}
 							
 						}

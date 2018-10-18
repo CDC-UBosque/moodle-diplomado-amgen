@@ -46,4 +46,41 @@
 	}
 }
 
+//ocultar barra izquierda
+#page-mod-page-view{
+	
+	#region-main{
+		width: 100%;
+	}
+	
+	#admin-block-layout,
+	#course-block-layout{
+		display: none;
+	}
+	
+}
+
+//mostrar barra izquierda al cambiar de rol
+#page-mod-page-view.userswitchedrole{
+	
+	#region-main{
+		width: 82.97872340425532%;
+		@media (min-width: 1350px){
+			    width: 82.90598290598291%;
+		}
+		@media (max-width: 979px) and (min-width: 768px){
+			width: 82.87292817679558%;
+		}
+		
+		@media (max-width: 767px){
+			width: 100%;
+		}
+	}
+	
+	#admin-block-layout,
+	#course-block-layout{
+		display: block;
+	}
+	
+}
 

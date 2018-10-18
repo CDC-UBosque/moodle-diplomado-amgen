@@ -102,6 +102,44 @@
 			
 		}
 		
+		.tabbable{
+			
+			.nav-tabs{
+				border-right: 1px solid $color_brand_blue;
+				margin-right: 0px;
+				
+				a{
+					border-radius: 0px;
+					margin-right: 0px;
+					border: 0px;
+					text-decoration: none;
+					background: $color_brand_green;
+					color: $color_white;
+					font-family: $font_hel_medium;
+					
+					&:hover{
+						background: $color_brand_blue;
+						color: $color_white;
+						border: 0px;
+					}
+				}
+				
+				.active{
+					background: $color_brand_blue;
+					color: $color_white;
+					
+					a{
+						background: none;
+						border: 0px;
+						color: $color_white;
+					}
+					
+				}
+				
+			}
+			
+		}
+		
 	}
 	
 	#banner-mod-0.banner-cursos{
